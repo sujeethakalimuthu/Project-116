@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <title>
+            Filter Web App
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel = "stylesheet" href = "style.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Share+Tech&display=swap" rel="stylesheet">
+    </head>
+    <body background = "bckgnd.png">
+        <center>
+            <h1 style = " font-size:30px;" class = "btn heading">Filter Web App</h1>
+            <br><br>
+            <button type = "button" style = "font-size:25px;" onclick = "take_snapshot()" class = "btn btn-success">Take Snapshot</button>
+            <span class = "selector-span btn btn-info">
+                <button type = "button" class = "btn btn-primary" onclick = "Mustache()">
+                    Mustache Filter
+                </button>
+                <button type = "button" class = "btn btn-primary" onclick = "Lipstick()">
+                    Lipstick Filter
+                </button>
+            </span>
+        </center>
+    </body>
+    <script src = "main.js"></script>
+</html>
